@@ -1,12 +1,9 @@
 <template>
-  <body class="p-3 m-0 border-0 bd-example">
-
-
-
-<nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="images/dark-logo.png" alt=""></a>
-      <ul class="navbar-nav">
+  <nav class="navbar navbar-expand-lg bg-light max-w ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="/images/dark-logo.png" alt=""></a>
+      <div class="cont-flex">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             HOME
@@ -67,20 +64,35 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
-      </ul>
-    </div>
-</nav>
-
-
-</body>
+        </ul>
+      </div>
+      <div class="cont-social">
+        <img src="/images/favicon-32x32.png" alt="">
+        <img src="/images/favicon-32x32.png" alt="">
+        <img src="/images/favicon-32x32.png" alt="">
+        <img src="/images/favicon-32x32.png" alt="">
+      </div>
+    </div>  
+  </nav>
 </template>
 
 <script>
+
 export default {
     name:'PageHeader',
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+*{
+  background-color:white;
+}
+ img{
+  margin: 1rem;
+  color: grey;
+ }
+ .max-w{
+  max-width: 1700px;
+  margin: auto;
+ }
 </style>

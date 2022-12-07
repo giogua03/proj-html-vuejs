@@ -1,7 +1,10 @@
 <template>
-  <PageFooter/>
-  <PageHeader/>
-  <PageMain/>
+  <div class="big-cont">
+    <PageHeader/>
+    <PageMain/>
+    <PageFooter/>
+  </div>
+  
 </template>
 
 <script>
@@ -18,6 +21,6 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss">
+@import "~bootstrap/scss/bootstrap";
 </style>
