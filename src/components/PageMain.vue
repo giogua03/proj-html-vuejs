@@ -116,7 +116,52 @@
   </div>
 </div>
     </div>
-    
+    <div class="last">
+      <div class="bg">
+        <h1>Upcoming Events</h1>
+      <h1>Let's Work Together </h1>
+      </div>
+      
+    </div>
+    <div class="container ">
+  <div class="row row-cols-2 g-2">
+    <div class="col b-lk">
+      <div><img src="/images/artist-event-01-250x300.jpg" alt=""></div>
+      <div class="tc">
+        <h3>NOV 22, 2020</h3>
+      <h1>stroring workship</h1>
+      <h3>toronto, Canada</h3>
+      </div>
+    </div>
+    <div class="col b-lk">
+      <div><img src="/images/artist-event-02-250x300.jpg" alt=""></div>
+      <div class="tc">  
+          <h3>NOV 22, 2020</h3>
+      <h1>stroring workship</h1>
+      <h3>toronto, Canada</h3>
+      
+        
+      </div>
+    </div>
+    <div class="col b-lk">
+      <div class="tc">
+        <h3>NOV 22, 2020</h3>
+      <h1>stroring workship</h1>
+      <h3>toronto, Canada</h3>
+      </div>
+      <div><img src="/images/artist-event-03-250x300.jpg" alt=""></div>
+      
+    </div>
+    <div class="col b-lk">
+      <div class="tc">
+        <h3>NOV 22, 2020</h3>
+      <h1>stroring workship</h1>
+      <h3>toronto, Canada</h3>
+      </div>
+      <div><img src="/images/artist-event-04-250x300.jpg" alt=""></div>
+    </div>
+  </div>
+</div>
   </div>
 </template>
 
@@ -253,5 +298,23 @@ button:hover{
 }
 .cont-4 h1{
   text-align:center;
+}
+.b-lk{
+  display: flex;
+}
+.b-lk .tc{
+  margin-top:4.5rem ;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.last .bg{
+  text-align: center;
+}
+.last{
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+.container{
+  margin-bottom: 5rem;
 }
 </style>
