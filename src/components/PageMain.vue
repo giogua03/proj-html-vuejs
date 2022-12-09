@@ -71,47 +71,47 @@
     <div class="cont-4">
       <h1>Artist Coaching</h1>
       <h1>Latest Online Courses</h1>
-      <div class="container text-center">
-  <div class="row row-cols-4">
+      <div class="container ">
+  <div class="row row-cols-4 g-2 dio">
     <div class="col">
-      <img src="/images/" alt="">
-      <h1></h1>
-      <h2></h2>
+      <img src="/images/artist-course-01-480x480.jpg" alt="">
+      <h3>$18.00</h3>
+      <h2>The Acrylic Painting Academy</h2>
     </div>
     <div class="col">
-      <img src="/images/" alt="">
-      <h1></h1>
-      <h2></h2>
+      <img src="/images/artist-course-02-480x480.jpg" alt="">
+      <h3>$21.00</h3>
+      <h2>Drawing and Shading: Complete Course</h2>
     </div>
     <div class="col">
-      <img src="/images/" alt="">
-      <h1></h1>
-      <h2></h2>
+      <img src="/images/artist-course-03-480x480.jpg" alt="">
+      <h3>$19.00</h3>
+      <h2>The Color Theory for Digital Artist</h2>
     </div>
     <div class="col">
-      <img src="/images/" alt="">
-      <h1></h1>
-      <h2></h2>
+      <img src="/images/artist-course-04-480x480.jpg" alt="">
+      <h3>$35.00</h3>
+      <h2>The Color Theory for Digital Artist</h2>
     </div>
     <div class="col">
-      <img src="/images/" alt="">
-      <h1></h1>
-      <h2></h2>
+      <img src="/images/artist-course-05-480x480.jpg" alt="">
+      <h3>$19.00</h3>
+      <h2>The Color Theory for Digital Artist</h2>
     </div>
     <div class="col">
-      <img src="/images/" alt="">
-      <h1></h1>
-      <h2></h2>
+      <img src="/images/artist-course-06-480x480.jpg" alt="">
+      <h3>$19.00</h3>
+      <h2>The Color Theory for Digital Artist</h2>
     </div>
     <div class="col">
-      <img src="/images/" alt="">
-      <h1></h1>
-      <h2></h2>
+      <img src="/images/artist-course-07-480x480.jpg" alt="">
+      <h3>$25.00</h3>
+      <h2>The Color Theory for Digital Artist</h2>
     </div>
     <div class="col">
-      <img src="/images/" alt="">
-      <h1></h1>
-      <h2></h2>
+      <img src="/images/artist-course-08-480x480.jpg" alt="">
+      <h3>$22.00</h3>
+      <h2>The Color Theory for Digital Artist</h2>
     </div>
   </div>
 </div>
@@ -244,5 +244,14 @@ button:hover{
   position: absolute;
   top: 42%;
   left: 49%;
+}
+.dio .col img{
+  width: 300px;
+}
+.dio .col h3{
+  color: red;
+}
+.cont-4 h1{
+  text-align:center;
 }
 </style>
